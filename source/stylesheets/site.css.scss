@@ -5,3 +5,53 @@
 @import "base/base";
 @import "neat/neat";
 
+@import "partials/nav";
+@import "partials/footer";
+
+html, body {
+ height: 100%;
+}
+
+.wrapper {
+  @include outer-container;
+  min-height: 84.4%;
+  height: auto !important;
+  height: 100%;
+  margin: 5.063em auto -4em;
+}
+
+.footer-2, .wrapper::after {
+  height: 17em;
+
+  @include media($large-screen) {
+    height: 4em;
+  }
+}
+
+section.hero {
+  @include span-columns(6);
+  position: relative;
+  background-image: url("../images/piramid.jpg");
+  background-repeat: no-repeat;
+  height: 320px;
+  p {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  button {
+    position: absolute;
+    left: 160px;
+    bottom: 120px;
+  }
+}
+
+section.media, section.research, section.output {
+  @include span-columns(6);
+}
+
+.row {
+  clear: both;
+}
+
