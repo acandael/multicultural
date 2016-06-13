@@ -49,6 +49,9 @@ section.hero {
 
 section.media, section.research, section.output {
   @include span-columns(6);
+  h2 {
+    color: $medium-gray;
+  }
 }
 
 .row {
