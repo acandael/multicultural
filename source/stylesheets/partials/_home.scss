@@ -25,5 +25,7 @@ section.media, section.research, section.output {
 }
 
 .row {
+  @include clearfix;
   clear: both;
+  margin-bottom: 2.25em;
 }

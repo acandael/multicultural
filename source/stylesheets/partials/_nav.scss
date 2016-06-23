@@ -34,14 +34,19 @@ header.navigation {
   .logo {
     float: left;
     max-height: $navigation-height;
+    width: 50%;
     padding-left: $navigation-padding;
     padding-right: 2em;
-    padding-top: 1em;
     color: $navigation-color;
 
     img {
       max-height: $navigation-height;
+      margin-right: 1em;
       padding: 0.8em 0;
+      float: left;
+    }
+    h1 {
+      padding-top: 1em;
     }
   }
 
