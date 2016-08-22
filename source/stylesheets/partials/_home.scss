@@ -22,6 +22,10 @@ section.media, section.research, section.output {
   h2 {
     color: $medium-gray;
   }
+
+  li {
+    margin-bottom: 1em;
+  }
 }
 
 .row {
