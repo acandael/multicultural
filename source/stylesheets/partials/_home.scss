@@ -2,18 +2,19 @@ section.hero {
   @include span-columns(6);
   position: relative;
   background-image: url("../images/piramid.jpg");
-  background-repeat: no-repeat;
+  background-size: cover;
   height: 320px;
+  padding-left: 2.25em;
+  padding-right: 2.25em;
   p {
     color: white;
-    position: absolute;
-    top: 100px;
-    left: 50px;
+    margin-top: 3.375em;
+    font-size: $base-font-size * 1.5;
   }
   button {
     position: absolute;
-    left: 160px;
-    bottom: 120px;
+    left: 230px;
+    bottom: 60px;
   }
 }
 
@@ -26,6 +27,10 @@ section.media, section.research, section.output {
   li {
     margin-bottom: 1em;
   }
+}
+
+section.media, section.output {
+  padding-left: 2.25em;
 }
 
 .row {
