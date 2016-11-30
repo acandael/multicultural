@@ -1,0 +1,7 @@
+div.research {
+  aside.sidebar {
+    @include span-columns(4);
+    float: right;
+  }
+}
+
