@@ -1,0 +1,20 @@
+div.contact {
+  article {
+    @include media($medium-screen) {
+      margin-top: 5.063em;
+    }
+    aside {
+      @include media($medium-screen) {
+        @include span-columns(6);
+        float: right;
+      }
+    }
+    .content {
+      @include media($medium-screen) {
+        @include span-columns(6);
+        float: left;
+      }
+      margin-bottom: 2.25em;
+    }
+  }
+}
