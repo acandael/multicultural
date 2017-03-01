@@ -24,6 +24,19 @@ header.pageheader {
   }
 }
 
+h2 {
+  font-size: $base-font-size * 1.5;
+}
+
+h3 {
+  font-size: $base-font-size * 1;
+  margin-top: 2.25em;
+}
+
+p {
+  color: darken($light-gray, 40%);
+}
+
 section.content {
   @include span-columns(8);
   padding-right: 2.25em;

@@ -3,5 +3,11 @@ div.research {
     @include span-columns(4);
     float: right;
   }
+
+  section.content {
+    h2 {
+      margin-top: 2.25em;
+    }
+  }
 }
 
