@@ -1,4 +1,10 @@
-div.research {
+div.research-project {
+  header.pageheader {
+    h1 {
+      text-align: left;
+      margin-bottom: 1em;
+    }
+  }
   aside.sidebar {
     @include span-columns(4);
     float: right;
