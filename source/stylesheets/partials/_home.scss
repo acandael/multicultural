@@ -1,5 +1,5 @@
 section.hero {
-  @include span-columns(6);
+  @include span-columns(8);
   position: relative;
   background-image: url("../images/piramid.jpg");
   background-size: cover;
@@ -19,7 +19,7 @@ section.hero {
 }
 
 section.media, section.research, section.output {
-  @include span-columns(6);
+  @include span-columns(8);
   h2 {
     color: $medium-gray;
   }
@@ -35,6 +35,9 @@ section.media, section.output {
 
 .row {
   @include clearfix;
+  @include media($medium-screen) {
+    @include shift(3);
+  }
   clear: both;
   margin-bottom: 2.25em;
 }
