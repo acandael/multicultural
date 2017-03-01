@@ -19,13 +19,22 @@ section.hero {
 }
 
 section.media, section.research, section.output {
-  @include span-columns(8);
+  @include span-columns(9);
   h2 {
     color: $medium-gray;
   }
 
   li {
     margin-bottom: 1em;
+  }
+}
+
+section.research {
+  img {
+    width: 10%;
+    vertical-align: middle;
+    margin-right: .5em;
+    border: 1px solid $action-color;
   }
 }
 
