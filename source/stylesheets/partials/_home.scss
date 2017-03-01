@@ -1,18 +1,25 @@
 section.hero {
-  @include span-columns(8);
-  position: relative;
+  @include span-columns(9);
   background-image: url("../images/piramid.jpg");
   background-size: cover;
   height: 320px;
+  padding-top: 5.063em;
   padding-left: 2.25em;
   padding-right: 2.25em;
-  p {
+  h1 {
     color: white;
-    margin-top: 3.375em;
-    font-size: $base-font-size * 1.5;
+    font-size: $base-font-size * 2.25;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    color: white;
+    margin-top: 2.25em;
   }
   button {
-    position: absolute;
+    margin: 0 auto;
+    display: block;
+    width: 50%;
     left: 230px;
     bottom: 60px;
   }
