@@ -45,8 +45,14 @@ header.navigation {
       padding: 0.8em 0;
       float: left;
     }
-    h1 {
-      padding-top: 1em;
+
+    span {
+      display: block;
+      padding-top: .5em;
+      font-size: 1.5em;
+      &:hover {
+        color: $navigation-color-hover;
+      }
     }
   }
 
