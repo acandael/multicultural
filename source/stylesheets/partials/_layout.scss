@@ -40,9 +40,9 @@ p {
 }
 
 section.content {
+  padding-bottom: 2.25em;
   @include span-columns(8);
   padding-right: 2.25em;
-  float: left;
   p {
     margin-bottom: 2.25em;
   }

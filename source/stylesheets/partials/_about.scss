@@ -1,24 +1,13 @@
 div.about {
-  div.content {
+  section.content {
     @include media($medium-screen) {
-      @include span-columns(6);
-    }
-
-    h2 {
-      margin-top: 2.25em;
-    }
-
-    li {
-      list-style-type: disc;
-      margin-bottom: 1em;
-      color: $medium-gray;
-      margin-left: 2.25em;
+    float: left;
     }
   }
   aside.sidebar {
     @include media($medium-screen) {
       @include span-columns(4);
-      @include shift(2);
+      float: right;
     }
   }
 }

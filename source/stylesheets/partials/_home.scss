@@ -29,10 +29,11 @@ section.media, section.research, section.output {
   @include span-columns(9);
   h2 {
     color: $medium-gray;
+    text-align: center;
   }
 
   li {
-    margin-bottom: 1em;
+    margin-bottom: 2.25em;
   }
 }
 
@@ -55,5 +56,5 @@ section.media, section.output {
     @include shift(3);
   }
   clear: both;
-  margin-bottom: 2.25em;
+  margin-bottom: 5.063em;
 }
