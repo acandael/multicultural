@@ -1,10 +1,12 @@
 div.about {
+  @include outer-container(90%);
   section.content {
     @include media($medium-screen) {
     float: left;
     }
   }
   aside.sidebar {
+    margin-bottom: 3.375em;
     @include media($medium-screen) {
       @include span-columns(4);
       float: right;

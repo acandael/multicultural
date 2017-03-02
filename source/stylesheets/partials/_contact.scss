@@ -1,4 +1,5 @@
 div.contact {
+  @include outer-container(90%);
   article {
     @include media($medium-screen) {
       margin-top: 5.063em;
