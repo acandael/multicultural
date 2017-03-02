@@ -1,13 +1,19 @@
 div.research-project {
+  @include outer-container(90%);
   header.pageheader {
     h1 {
-      text-align: left;
+      @include media($medium-screen) {
+        text-align: left;
+      }
       margin-bottom: 1em;
     }
   }
   aside.sidebar {
-    @include span-columns(4);
-    float: right;
+    margin-bottom: 2.25em;
+    @include media($medium-screen) {
+      @include span-columns(4);
+      float: right;
+    }
   }
 
   section.content {

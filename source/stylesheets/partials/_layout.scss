@@ -7,11 +7,16 @@ html, body {
   min-height: 84.4%;
   height: auto !important;
   height: 100%;
-  margin: 5.063em auto -4em;
+  margin: 2.25em auto -2em;
+  @include media($medium-screen) {
+    margin: 5.063em auto -4em;
+  }
 }
 
 .footer-2, .wrapper::after {
-  height: 17em;
+  @include media($medium-screen) {
+    height: 17em;
+  }
 
   @include media($large-screen) {
     height: 4em;
@@ -20,7 +25,9 @@ html, body {
 
 header.pageheader {
   h1 {
-    font-size: $base-font-size * 2.25;
+    @include media($medium-screen) {
+      font-size: $base-font-size * 2.25;
+    }
     text-align: center;
     margin-bottom: 2.25em;
   }
@@ -41,8 +48,10 @@ p {
 
 section.content {
   padding-bottom: 2.25em;
-  @include span-columns(8);
-  padding-right: 2.25em;
+  @include media($medium-screen) {
+    @include span-columns(8);
+    padding-right: 2.25em;
+  }
   p {
     margin-bottom: 2.25em;
   }
