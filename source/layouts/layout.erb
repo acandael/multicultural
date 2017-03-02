@@ -10,6 +10,7 @@
     <meta name="description" content="<%= current_page.data.description %>">
     <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
     <script src="https://use.fontawesome.com/171c7c0bde.js"></script>
+    <%= javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js' %>
     <%= stylesheet_link_tag :site %>
     <%= javascript_include_tag :all %>
   </head>
@@ -21,4 +22,19 @@
       </div>
       <%= partial "partials/footer" %>
   </body>
+  <script>
+    $(document).ready(function() {
+      var menuToggle = $('#js-mobile-menu').unbind();
+      $('#js-navigation-menu').removeClass("show");
+
+      menuToggle.on('click', function(e) {
+        e.preventDefault();
+        $('#js-navigation-menu').slideToggle(function(){
+          if($('#js-navigation-menu').is(':hidden')) {
+            $('#js-navigation-menu').removeAttr('style');
+          }
+        });
+      });
+    });
+  </script>
 </html>
