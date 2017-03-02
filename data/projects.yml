@@ -1,0 +1,24 @@
+- name: "Developing local human rights approaches to prevent and address multicultural conflicts"
+  description: "This research theme explores the modalities of systematic integration of human rights in the work of municipal authorities"
+  image: "building.jpg"
+  page: "developing-local-human-watch-approaches.html"
+
+- name: "Procedural fairness criteria: relative weight and synergetic effects"
+  description: "In this research theme, we focus on what relevant procedural fairness criteria can be applied in diverse contexts"
+  image: "architecture.jpg"
+  page: "procedural-fairness-criteria.html"
+
+- name: "The relevance of self-levels in procedural fairness effects"
+  description: "Procedural fairness in addressing local multicultural conflicts proceeds through distinct levels of social needs, with distinctive effects on the target variables"
+  image: "windows.jpg"
+  page: "relevance-of-self-levels.html"
+
+- name: "Contextual variation in procedural fairness and its effects"
+  description: "The first aim is to examine the role of the context of multicultural conflicts for both the salience of procedural fairness criteria and proximal outcomes"
+  image: "stairs.jpg"
+  page: "contextual-variation-in-procedural-fairness.html"
+
+- name: "Integrating procedural fairness in local approaches to multicultural conflicts"
+  description: "This research theme aims to develop a model for integrating procedural fairness guarantees in human rights realization in the concrete context of local multicultural conflicts in public, private and semi-public settings"
+  image: "abstract.jpg"
+  page: "integrating-procedural-fairness-in-local-approaches.html"
