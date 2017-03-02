@@ -1,32 +1,46 @@
 section.hero {
-  @include span-columns(9);
+  padding-top: 2.25em;
+  padding-bottom: 2.25em;
+  @include media($medium-screen) {
+    @include span-columns(9);
+    padding-top: 5.063em;
+    height: 320px;
+  }
   background-image: url("../images/piramid.jpg");
   background-size: cover;
-  height: 320px;
-  padding-top: 5.063em;
   padding-left: 2.25em;
   padding-right: 2.25em;
   h1 {
     color: white;
-    font-size: $base-font-size * 2.25;
+    font-size: $base-font-size * 1.5;
+    @include media($medium-screen) {
+      font-size: $base-font-size * 2.25;
+    }
     text-align: center;
   }
   p {
     text-align: center;
     color: white;
-    margin-top: 2.25em;
+    margin-top: 1.5em;
+    @include media($medium-screen) {
+      margin-top: 2.25em;
+    }
   }
   button {
+    @include media($medium-screen) {
+      margin-top: 2.25em;
+    }
     margin: 0 auto;
     display: block;
     width: 50%;
-    left: 230px;
-    bottom: 60px;
   }
 }
 
 section.media, section.research, section.output {
-  @include span-columns(9);
+  margin-top: 2.25em;
+  @include media($medium-screen) {
+    @include span-columns(9);
+  }
   h2 {
     color: $medium-gray;
     text-align: center;
@@ -51,10 +65,15 @@ section.media, section.output {
 }
 
 .row {
+  @include outer-container(90%);
   @include clearfix;
   @include media($medium-screen) {
-    @include shift(3);
+    @include shift(2);
   }
+  margin: 0 auto;
+  width: 100%;
   clear: both;
-  margin-bottom: 5.063em;
+  @include media($medium-screen) {
+    margin-bottom: 5.063em;
+  }
 }

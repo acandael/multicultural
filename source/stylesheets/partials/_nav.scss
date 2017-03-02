@@ -34,7 +34,9 @@ header.navigation {
   .logo {
     float: left;
     max-height: $navigation-height;
-    width: 50%;
+    @include media($medium-screen) {
+      width: 50%;
+    }
     padding-left: $navigation-padding;
     padding-right: 2em;
     color: $navigation-color;
@@ -49,7 +51,9 @@ header.navigation {
     span {
       display: block;
       padding-top: .5em;
-      font-size: 1.5em;
+      @include media($medium-screen) {
+        font-size: 1.5em;
+      }
       &:hover {
         color: $navigation-color-hover;
       }
