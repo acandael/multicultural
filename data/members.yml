@@ -1,0 +1,39 @@
+- name: "Eva Brems"
+  title: "Prof. Dr."
+  page: "eva-brems.html"
+
+- name: "Bart Van de Putte"
+  title: "Prof. Dr."
+  page: "bart-van-de-putte.html"
+
+- name: "Alain Van Hiel"
+  title: "Prof. Dr."
+  page: "alain-van-hiel.html"
+
+- name: "Emma Onraet"
+  title: "Dr."
+  page: "emma-onraet.html"
+
+- name: "Saïla Ouald Chaib"
+  title: "Dr."
+  page: "saila-ouald-chaib.html"
+
+- name: "Pieter-Paul Verhaeghe"
+  title: "Dr."
+  page: "pieter-paul-verhaeghe.html"
+
+- name: "Tess Heirwegh"
+  title: "PhD researcher"
+  page: "tess-heirwegh.html"
+
+- name: "Barbara Valcke"
+  title: "PhD researcher"
+  page: "barbara-valcke.html"
+
+- name: "Cathérine Van de Graaf"
+  title: "PhD researcher"
+  page: "catherine-van-de-graaf.html"
+
+- name: "Thomas Van Roey"
+  title: "PhD researcher"
+  page: "thomas-van-roey.html"

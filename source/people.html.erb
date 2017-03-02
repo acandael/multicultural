@@ -8,35 +8,8 @@ description: People from human rights law, social psychology and sociology colla
     <h1>PEOPLE</h1>
   </header>
   <div class="researchers">
-    <div class="researcher">
-      <p><a href="/eva-brems.html">Eva Brems</a><br>Prof. Dr.</p>
-    </div><!-- .researcher -->
-    <div class="researcher">
-      <p><a href="/bart-van-de-putte.html">Bart Van de Putte</a><br>Prof. Dr.</p>
-    </div><!-- .researcher -->
-    <div class="researcher">
-      <p><a href="/alain-van-hiel.html">Alain Van Hiel</a><br>Prof. Dr.</p>
-    </div><!-- .researcher -->
-    <div class="researcher">
-      <p><a href="/emma-onraet.html">Emma Onraet</a><br>Dr.</p>
-    </div><!-- .researcher -->
-    <div class="researcher">
-      <p><a href="/saila-ouald-chaib.html">Saïla Ouald Chaib</a><br>Dr.</p>
-    </div><!-- .researcher -->
-    <div class="researcher">
-      <p><a href="/pieter-paul-verhaeghe.html">Pieter-Paul Verhaeghe</a><br>Dr.</p>
-    </div><!-- .researcher -->
-    <div class="researcher">
-      <p><a href="/tess-heirwegh.html">Tess Heirwegh</a><br>PhD researcher</p>
-    </div><!-- .researcher -->
-    <div class="researcher">
-      <p><a href="/barbara-valcke.html">Barbara Valcke</a><br>PhD researcher</p>
-    </div><!-- .researcher -->
-    <div class="researcher">
-      <p><a href="/catherine-van-de-graaf.html">Cathérine Van de Graaf</a><br>PhD researcher</p>
-    </div><!-- .researcher -->
-    <div class="researcher">
-      <p><a href="/thomas-van-roey.html">Thomas Van Roey</a><br>PhD researcher</p>
-    </div><!-- .researcher -->
+    <% data.members.each do |member| %>
+      <%= partial "member", locals: { member: member } %>
+    <% end %>
   </div><!-- .researchers -->
 </div><!-- .people -->
