@@ -1,4 +1,6 @@
 article.person {
+  @include outer-container(90%);
+  padding-bottom: 2.25em;
 
   aside {
     @include media($medium-screen) {
