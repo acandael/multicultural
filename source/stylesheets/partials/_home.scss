@@ -3,6 +3,11 @@ section.hero {
   padding-bottom: 2.25em;
   @include media($medium-screen) {
     @include span-columns(9);
+    padding-top: 3.375em;
+    height: 320px;
+  }
+  @include media($large-screen) {
+    @include span-columns(9);
     padding-top: 5.063em;
     height: 320px;
   }
@@ -28,6 +33,9 @@ section.hero {
   }
   button {
     @include media($medium-screen) {
+      margin-top: 1em;
+    }
+    @include media($large-screen) {
       margin-top: 2.25em;
     }
     margin: 0 auto;
